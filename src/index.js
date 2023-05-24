@@ -1,17 +1,14 @@
+/*
+ * @Date: 2023-05-24 21:25:56
+ * @LastEditors: “MaxMap” 975106543@qq.com
+ * @LastEditTime: 2023-05-24 22:58:55
+ * @FilePath: \redux-demo\src\index.js
+ */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+root.render(<App />);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
